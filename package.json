@@ -1,0 +1,37 @@
+{
+  "name": "nodex",
+  "description": "some uesed libs for nodejs",
+  "version": "0.0.0",
+  "author": "Ping Xie <yurow@163.com>",
+  "contributors": [
+    "Ping Xie <yurow@163.com>"
+  ],
+  "dependencies": {
+  	"mongodb": "~1.4.*"
+  },
+  "devDependencies": {
+
+  },
+  "keywords": [
+    "nodex",
+    "nodejs",
+    "libs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://nodex.cn"
+  },
+  "homepage": "http://nodex.cn",
+  "main": "index.js"
+}
